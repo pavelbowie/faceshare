@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>SharePhotoGroup</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleName</key>
+	<string>SharePhotoGroup</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Приложению необходим доступ к Bluetooth для поиска и соединения с другими устройствами поблизости.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Приложению необходим доступ к Bluetooth для поиска и соединения с другими устройствами поблизости.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_face-emb-v2._tcp</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Приложению необходим доступ к камере для создания новых фотографий с лицами.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Приложению необходим доступ к контактам для автоматической маркировки лиц на фотографиях.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Для поиска и соединения с другими устройствами поблизости.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Приложению необходим доступ к микрофону для записи видео с лицами.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Приложению необходим доступ для сохранения фотографий в вашу библиотеку.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Приложению необходим доступ к фотографиям для обнаружения лиц и обмена ими с другими пользователями.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIInterfaceOrientation</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>
